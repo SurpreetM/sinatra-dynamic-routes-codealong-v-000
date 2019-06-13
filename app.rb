@@ -24,4 +24,5 @@ class App < Sinatra::Base
     @num1 = params[:num1].to_i
     @num2 = params [:num2].to_1
     return @num1 * @num2
+  end 
 end
